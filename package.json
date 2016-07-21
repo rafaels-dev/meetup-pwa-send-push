@@ -1,0 +1,23 @@
+{
+  "name": "meetup-pwa-send-push",
+  "version": "1.0.0",
+  "description": "Application for send push notifications using Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcschettino/meetup-pwa-send-push.git"
+  },
+  "author": "Rafael Schettino <rafael_tecnologia@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcschettino/meetup-pwa-send-push/issues"
+  },
+  "homepage": "https://github.com/rcschettino/meetup-pwa-send-push#readme",
+  "dependencies": {
+    "firebase": "^3.2.0",
+    "node-gcm": "^0.14.3"
+  }
+}
