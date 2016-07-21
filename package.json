@@ -4,13 +4,14 @@
   "description": "Application for send push notifications using Firebase",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rcschettino/meetup-pwa-send-push.git"
   },
-  "engine": {
+  "engines": {
     "node":"4.2.6"
   },
   "author": "Rafael Schettino <rafael_tecnologia@outlook.com>",
